@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D88472D01AC76E4300996CDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D88472CF1AC76E4300996CDF /* main.m */; };
+		D88472D31AC76E4300996CDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D88472D21AC76E4300996CDF /* AppDelegate.m */; };
+		D88472D61AC76E4300996CDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88472D51AC76E4300996CDF /* ViewController.m */; };
+		D88472D91AC76E4300996CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88472D71AC76E4300996CDF /* Main.storyboard */; };
+		D88472DB1AC76E4300996CDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88472DA1AC76E4300996CDF /* Images.xcassets */; };
+		D88472DE1AC76E4300996CDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88472DC1AC76E4300996CDF /* LaunchScreen.xib */; };
+		D88472EA1AC76E4300996CDF /* SnackeratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D88472E91AC76E4300996CDF /* SnackeratorTests.m */; };
+		D88472F51AC7AC8800996CDF /* SnackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D88472F41AC7AC8800996CDF /* SnackItem.m */; };
+		D8EED2991ACA27CB00C9DDB2 /* SnackDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EED2971ACA27CB00C9DDB2 /* SnackDetailViewController.m */; };
+		D8EED29A1ACA27CB00C9DDB2 /* SnackDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8EED2981ACA27CB00C9DDB2 /* SnackDetailViewController.xib */; };
+		D8EED29D1ACA28CE00C9DDB2 /* SnackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EED29C1ACA28CE00C9DDB2 /* SnackManager.m */; };
+		D8EED2A41ACA54A900C9DDB2 /* dairymilk.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EED29F1ACA54A900C9DDB2 /* dairymilk.png */; };
+		D8EED2A51ACA54A900C9DDB2 /* doritos.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EED2A01ACA54A900C9DDB2 /* doritos.png */; };
+		D8EED2A61ACA54A900C9DDB2 /* fibreOneBrownie.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EED2A11ACA54A900C9DDB2 /* fibreOneBrownie.png */; };
+		D8EED2A71ACA54A900C9DDB2 /* pretzels.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EED2A21ACA54A900C9DDB2 /* pretzels.png */; };
+		D8EED2A81ACA54A900C9DDB2 /* saltedPeanuts.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EED2A31ACA54A900C9DDB2 /* saltedPeanuts.png */; };
+		D8EED2AA1ACA7EFE00C9DDB2 /* cork.aif in Resources */ = {isa = PBXBuildFile; fileRef = D8EED2A91ACA7EFE00C9DDB2 /* cork.aif */; };
+		D8EED2AC1ACA800D00C9DDB2 /* cork2.aif in Resources */ = {isa = PBXBuildFile; fileRef = D8EED2AB1ACA800D00C9DDB2 /* cork2.aif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D88472E41AC76E4300996CDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D88472C21AC76E4300996CDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88472C91AC76E4300996CDF;
+			remoteInfo = Snackerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D88472CA1AC76E4300996CDF /* Snackerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snackerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88472CE1AC76E4300996CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88472CF1AC76E4300996CDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D88472D11AC76E4300996CDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D88472D21AC76E4300996CDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D88472D41AC76E4300996CDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D88472D51AC76E4300996CDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D88472D81AC76E4300996CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D88472DA1AC76E4300996CDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D88472DD1AC76E4300996CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D88472E31AC76E4300996CDF /* SnackeratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnackeratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88472E81AC76E4300996CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88472E91AC76E4300996CDF /* SnackeratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnackeratorTests.m; sourceTree = "<group>"; };
+		D88472F31AC7AC8800996CDF /* SnackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnackItem.h; sourceTree = "<group>"; };
+		D88472F41AC7AC8800996CDF /* SnackItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnackItem.m; sourceTree = "<group>"; };
+		D8EED2961ACA27CB00C9DDB2 /* SnackDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnackDetailViewController.h; sourceTree = "<group>"; };
+		D8EED2971ACA27CB00C9DDB2 /* SnackDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnackDetailViewController.m; sourceTree = "<group>"; };
+		D8EED2981ACA27CB00C9DDB2 /* SnackDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnackDetailViewController.xib; sourceTree = "<group>"; };
+		D8EED29B1ACA28CE00C9DDB2 /* SnackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnackManager.h; sourceTree = "<group>"; };
+		D8EED29C1ACA28CE00C9DDB2 /* SnackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnackManager.m; sourceTree = "<group>"; };
+		D8EED29F1ACA54A900C9DDB2 /* dairymilk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dairymilk.png; sourceTree = "<group>"; };
+		D8EED2A01ACA54A900C9DDB2 /* doritos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doritos.png; sourceTree = "<group>"; };
+		D8EED2A11ACA54A900C9DDB2 /* fibreOneBrownie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fibreOneBrownie.png; sourceTree = "<group>"; };
+		D8EED2A21ACA54A900C9DDB2 /* pretzels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pretzels.png; sourceTree = "<group>"; };
+		D8EED2A31ACA54A900C9DDB2 /* saltedPeanuts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saltedPeanuts.png; sourceTree = "<group>"; };
+		D8EED2A91ACA7EFE00C9DDB2 /* cork.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = cork.aif; sourceTree = "<group>"; };
+		D8EED2AB1ACA800D00C9DDB2 /* cork2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = cork2.aif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D88472C71AC76E4300996CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88472E01AC76E4300996CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D88472C11AC76E4300996CDF = {
+			isa = PBXGroup;
+			children = (
+				D88472CC1AC76E4300996CDF /* Snackerator */,
+				D88472E61AC76E4300996CDF /* SnackeratorTests */,
+				D88472CB1AC76E4300996CDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D88472CB1AC76E4300996CDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88472CA1AC76E4300996CDF /* Snackerator.app */,
+				D88472E31AC76E4300996CDF /* SnackeratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88472CC1AC76E4300996CDF /* Snackerator */ = {
+			isa = PBXGroup;
+			children = (
+				D8EED29E1ACA28D700C9DDB2 /* Snacks */,
+				D88472D11AC76E4300996CDF /* AppDelegate.h */,
+				D88472D21AC76E4300996CDF /* AppDelegate.m */,
+				D88472D41AC76E4300996CDF /* ViewController.h */,
+				D88472D51AC76E4300996CDF /* ViewController.m */,
+				D8EED2961ACA27CB00C9DDB2 /* SnackDetailViewController.h */,
+				D8EED2971ACA27CB00C9DDB2 /* SnackDetailViewController.m */,
+				D8EED2981ACA27CB00C9DDB2 /* SnackDetailViewController.xib */,
+				D88472D71AC76E4300996CDF /* Main.storyboard */,
+				D88472DA1AC76E4300996CDF /* Images.xcassets */,
+				D88472DC1AC76E4300996CDF /* LaunchScreen.xib */,
+				D88472CD1AC76E4300996CDF /* Supporting Files */,
+			);
+			path = Snackerator;
+			sourceTree = "<group>";
+		};
+		D88472CD1AC76E4300996CDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D88472F61AC8CC2E00996CDF /* Resources */,
+				D88472CE1AC76E4300996CDF /* Info.plist */,
+				D88472CF1AC76E4300996CDF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D88472E61AC76E4300996CDF /* SnackeratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D88472E91AC76E4300996CDF /* SnackeratorTests.m */,
+				D88472E71AC76E4300996CDF /* Supporting Files */,
+			);
+			path = SnackeratorTests;
+			sourceTree = "<group>";
+		};
+		D88472E71AC76E4300996CDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D88472E81AC76E4300996CDF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D88472F61AC8CC2E00996CDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8EED2AB1ACA800D00C9DDB2 /* cork2.aif */,
+				D8EED2A91ACA7EFE00C9DDB2 /* cork.aif */,
+				D8EED29F1ACA54A900C9DDB2 /* dairymilk.png */,
+				D8EED2A01ACA54A900C9DDB2 /* doritos.png */,
+				D8EED2A11ACA54A900C9DDB2 /* fibreOneBrownie.png */,
+				D8EED2A21ACA54A900C9DDB2 /* pretzels.png */,
+				D8EED2A31ACA54A900C9DDB2 /* saltedPeanuts.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D8EED29E1ACA28D700C9DDB2 /* Snacks */ = {
+			isa = PBXGroup;
+			children = (
+				D8EED29B1ACA28CE00C9DDB2 /* SnackManager.h */,
+				D8EED29C1ACA28CE00C9DDB2 /* SnackManager.m */,
+				D88472F31AC7AC8800996CDF /* SnackItem.h */,
+				D88472F41AC7AC8800996CDF /* SnackItem.m */,
+			);
+			name = Snacks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D88472C91AC76E4300996CDF /* Snackerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88472ED1AC76E4300996CDF /* Build configuration list for PBXNativeTarget "Snackerator" */;
+			buildPhases = (
+				D88472C61AC76E4300996CDF /* Sources */,
+				D88472C71AC76E4300996CDF /* Frameworks */,
+				D88472C81AC76E4300996CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snackerator;
+			productName = Snackerator;
+			productReference = D88472CA1AC76E4300996CDF /* Snackerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D88472E21AC76E4300996CDF /* SnackeratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88472F01AC76E4300996CDF /* Build configuration list for PBXNativeTarget "SnackeratorTests" */;
+			buildPhases = (
+				D88472DF1AC76E4300996CDF /* Sources */,
+				D88472E01AC76E4300996CDF /* Frameworks */,
+				D88472E11AC76E4300996CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D88472E51AC76E4300996CDF /* PBXTargetDependency */,
+			);
+			name = SnackeratorTests;
+			productName = SnackeratorTests;
+			productReference = D88472E31AC76E4300996CDF /* SnackeratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D88472C21AC76E4300996CDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = prayaasjain;
+				TargetAttributes = {
+					D88472C91AC76E4300996CDF = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = DATQ8H6722;
+					};
+					D88472E21AC76E4300996CDF = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = DATQ8H6722;
+						TestTargetID = D88472C91AC76E4300996CDF;
+					};
+				};
+			};
+			buildConfigurationList = D88472C51AC76E4300996CDF /* Build configuration list for PBXProject "Snackerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D88472C11AC76E4300996CDF;
+			productRefGroup = D88472CB1AC76E4300996CDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88472C91AC76E4300996CDF /* Snackerator */,
+				D88472E21AC76E4300996CDF /* SnackeratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D88472C81AC76E4300996CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EED2A51ACA54A900C9DDB2 /* doritos.png in Resources */,
+				D8EED2A81ACA54A900C9DDB2 /* saltedPeanuts.png in Resources */,
+				D8EED2AC1ACA800D00C9DDB2 /* cork2.aif in Resources */,
+				D8EED2A41ACA54A900C9DDB2 /* dairymilk.png in Resources */,
+				D88472D91AC76E4300996CDF /* Main.storyboard in Resources */,
+				D8EED29A1ACA27CB00C9DDB2 /* SnackDetailViewController.xib in Resources */,
+				D88472DE1AC76E4300996CDF /* LaunchScreen.xib in Resources */,
+				D8EED2A71ACA54A900C9DDB2 /* pretzels.png in Resources */,
+				D8EED2A61ACA54A900C9DDB2 /* fibreOneBrownie.png in Resources */,
+				D88472DB1AC76E4300996CDF /* Images.xcassets in Resources */,
+				D8EED2AA1ACA7EFE00C9DDB2 /* cork.aif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88472E11AC76E4300996CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D88472C61AC76E4300996CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88472D61AC76E4300996CDF /* ViewController.m in Sources */,
+				D88472F51AC7AC8800996CDF /* SnackItem.m in Sources */,
+				D8EED29D1ACA28CE00C9DDB2 /* SnackManager.m in Sources */,
+				D88472D31AC76E4300996CDF /* AppDelegate.m in Sources */,
+				D88472D01AC76E4300996CDF /* main.m in Sources */,
+				D8EED2991ACA27CB00C9DDB2 /* SnackDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88472DF1AC76E4300996CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88472EA1AC76E4300996CDF /* SnackeratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D88472E51AC76E4300996CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88472C91AC76E4300996CDF /* Snackerator */;
+			targetProxy = D88472E41AC76E4300996CDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D88472D71AC76E4300996CDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88472D81AC76E4300996CDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D88472DC1AC76E4300996CDF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88472DD1AC76E4300996CDF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D88472EB1AC76E4300996CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prayaas Jain (8EPK9DA9X4)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c4435485-8b69-4b64-8818-7447064486f7";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D88472EC1AC76E4300996CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prayaas Jain (8EPK9DA9X4)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c4435485-8b69-4b64-8818-7447064486f7";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D88472EE1AC76E4300996CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Snackerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D88472EF1AC76E4300996CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Snackerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D88472F11AC76E4300996CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnackeratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snackerator.app/Snackerator";
+			};
+			name = Debug;
+		};
+		D88472F21AC76E4300996CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnackeratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snackerator.app/Snackerator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D88472C51AC76E4300996CDF /* Build configuration list for PBXProject "Snackerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88472EB1AC76E4300996CDF /* Debug */,
+				D88472EC1AC76E4300996CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88472ED1AC76E4300996CDF /* Build configuration list for PBXNativeTarget "Snackerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88472EE1AC76E4300996CDF /* Debug */,
+				D88472EF1AC76E4300996CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88472F01AC76E4300996CDF /* Build configuration list for PBXNativeTarget "SnackeratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88472F11AC76E4300996CDF /* Debug */,
+				D88472F21AC76E4300996CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D88472C21AC76E4300996CDF /* Project object */;
+}
